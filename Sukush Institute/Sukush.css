@@ -1,0 +1,207 @@
+/*LOGIN PAGE*/
+
+#head                               /* HEADING [TITLE + REGISTRATION*/
+{
+    padding: 35px;
+    color:darkgreen;
+    text-align: center;
+}
+
+.container                          /* ALL CONTAINERS*/
+{
+    border: solid 2px;
+    padding: 30px 10px 200px 10px;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.login-1                               /* */
+{
+    padding-left: 400px;
+    max-width: 700px;
+}
+
+.lgn-btn                            /* BUTTON*/
+{
+    padding: 50px 300px 10px 400px;
+}
+
+#log-foot                             /* LOGIN FOOTER*/
+{
+    height: 110px;
+    background-color: lightblue;
+    margin-top: 20px;
+    text-align-last: center;
+    padding: 10px 90px 0px 90px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* REGISTRATION PAGE*/
+
+legend                              /* HEADING*/
+{   
+    margin: 0px 0px 20px 15px;
+    text-decoration: underline;
+}
+.sk-1                               /* CONTAINER*/
+{
+    padding-top: 20px;
+    padding-left: 100px;
+    float: left;
+    columns: 2;
+}
+
+.sk-1 input                         /* INPUT BOX*/
+{
+    width: 130%;
+}
+
+.radio-label                        /* RADIO LABEL*/
+{
+    padding-right: 160px;
+}
+
+.select                             /*SELECT*/
+{
+    max-width: fit-content;
+    padding: 20px 0px 0px 145px;
+    float:inline-start;
+}
+
+.sk-pass                            /* PASSWORD*/
+{
+    padding-left: 100px;
+    margin-top: 120px;
+}
+
+.sk-pass .form-control              /* PASSWORD INPUT*/
+{
+    width: 40%;
+}
+
+.sk-pass .pass-text                 /* PASSWORD MESSAGE*/
+{
+    color: dimgray;
+}
+
+.cnfm-btn                           /*CONFIRM BUTTON POSITION*/
+{
+    padding-left: 350px;
+    padding-right: 400px;
+    padding-top: 40px;
+}
+
+.cnfm-btn .btn                      /* CONFIRM BUTTON SIZE*/
+{
+    width: 200px;
+    margin-left: 40px;
+}
+                                    
+.dec                                /* DECELERAION*/
+{
+    padding: 20px 150px 20px 190px;
+}
+
+.sk-btn                            /* SUBMIT BUTTON*/
+{
+    padding-left: 710px;
+    padding-bottom: 20px;
+}
+
+.sk-btn .btn                        /* SUBMIT BUTTON WIDTH*/
+{
+    width: 200px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* REGISTRATIO PAGE - 2*/
+
+.container-sm                       /* QUALIFICATION */
+{
+    border: solid 2px;
+    padding: 30px 10px 200px 10px;
+    border-radius: 20px;
+    height: 580px;
+}
+
+.edu                                /* QUALIFICATION INFO*/
+{
+    padding: 20px 0px 0px 100px;
+    display:inline-block;
+}
+
+.edu input                          /* QUALIFICATION INPUT*/
+{
+    width: 500px;
+}
+
+.btn-group                          /* MARKS*/
+{
+    padding: 50px 0px 0px 100px;
+}
+
+.btn-group input                    /* MARKS INPUT*/
+{
+    width: 342px;
+}
+
+.input-group                        /* UPLOAD*/
+{
+    padding: 30px 100px 0px 100px;
+}
+
+.input-group input                  /* UPLOAD INPUT SIZE*/
+{
+    max-width: 900px;
+}
+
+.input-group .upload-label          /* LABEL PADDING*/
+{
+    padding: 0px 110px 0px 0px;
+} 
+
+.edu-btn-1                          /* ADD BUTTON*/
+{
+    padding: 20px 00px 0px 690px;
+    word-spacing: 30px;
+}
+
+.edu-btn-2                          /* LINK BUTTON*/
+{   
+    padding: 20px 0px 20px 720px;   
+}
+
+.edu-btn-2 .btn                     /* BUTTON SIZE*/
+{
+    width: 150px;
+}
+
+.d-grid
+{
+   padding: 20px 0px 20px 50px; 
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* UPLODING PAGE*/
+
+.container-xs
+{
+    border: solid 2px;
+    border-radius: 20px;
+    height: 300px;
+    margin: 0px 185px 10px 185px;
+}
+
+.payment-cls
+{
+    display:inline-block;
+    margin: 50px 30px 60px 120px;
+}
+
+.input-group #button-addon2
+{
+    width: 200px;
+}
+
+input:hover
+{
+    background-color:lightgrey;
+}

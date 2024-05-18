@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registration Form</title>
+        <link rel="icon" href="Sk.jpg" type="logo/icon">
+
+        <link rel="stylesheet" href="Sukush.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+    <header>
+        <div id="head">
+            <h1>SUKUSH ACADEMY & INSTITUTE OF INFORMATION TECHNOLOGY</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <form>
+            <legend><b>PERSONNEL INFORMATION</b></legend>
+    <!-- FIRST NAME-->
+                <div class="sk-1">
+                    <label for="firstname" class="form-label">First Name :</label>
+                    <input type="textbox" class="form-control" id="inputfname" placeholder="First Name" required>
+                  </div>
+    <!-- LAST NAME-->
+                  <div class="sk-1">
+                    <label for="lastname" class="form-label">Last Name :</label>
+                    <input type="textbox" class="form-control" id="inputlname" placeholder="Last Name" required>
+                  </div>
+    <!-- FATHER NAME-->
+                  <div class="sk-1">
+                    <label for="fathername" class="form-label">Father's Name :</label>
+                    <input type="textbox" class="form-control" id="inputfaname" placeholder="Father's Name" required>
+                  </div>
+    <!-- MOTHER NAME-->
+                  <div class="sk-1">
+                    <label for="mothername" class="form-label">Mother's Name :</label>
+                    <input type="textbox" class="form-control" id="inputmoname" placeholder="Mother's Name" required>
+                  </div>
+    <!-- GENDER-->
+                  <div class="sk-1" role="group" aria-label="Basic radio toggle button group">
+                    <label for="Gender" class="radio-label">Gender : </label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio1">Male</label>
+                  
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio2">Female</label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio3">Transgender</label>
+                  </div>
+    <!-- CATEGORY-->
+                  <div class="sk-1" role="group" aria-label="Basic radio toggle button group">
+                    <label for="Category" class="radio-label">Category : </label>
+                    <input type="radio" class="btn-check" name="catradio" id="catradio1" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="catradio1">GENERAL</label>
+                  
+                    <input type="radio" class="btn-check" name="catradio" id="catradio2" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="catradio2">OBC</label>
+
+                    <input type="radio" class="btn-check" name="catradio" id="catradio3" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="catradio3">SC</label>
+
+                    <input type="radio" class="btn-check" name="catradio" id="catradio4" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="catradio4">ST</label>
+                  </div>
+    <!-- ADHAAR CARD DETAILS-->  
+                  <div class="sk-1">
+                    <label for="adhaarumber" class="form-label">Adhaar No. :</label>
+                    <input type="textbox" class="form-control" id="adhaar" placeholder="0000-0000-0000-0000">
+                  </div>
+    <!-- CONFIRM ADHAAR-->
+                  <div class="sk-1">
+                    <label for="adhaarconfirm" class="form-label">Confirm Adhaar No. :</label>
+                    <input type="textbox" class="form-control" id="cnfmadhaar" placeholder="0000-0000-0000-0000">
+                  </div>
+
+    <!-- PANCARD DETAILS-->
+                  <div class="sk-1">
+                    <label for="adhaar" class="form-label">Pan Card No. :</label>
+                    <input type="textbox" class="form-control" id="cnfmadhaar" placeholder="ABCDE1234F">
+                  </div>
+    <!-- CONFIRM PAN-->
+                  <div class="sk-1">
+                    <label for="panconfirm" class="form-label">Confirm Pan Card No. :</label>
+                    <input type="textbox" class="form-control" id="cnfmadhaar" placeholder="ABCDE1234F">
+                  </div>
+            </form>
+        </div>
+
+            <br>
+
+        <div class="container">
+            <form>
+              <legend><b>TEMPORARY ADDRESS</b></legend>
+  <!-- BLOCK-->
+              <div class="sk-1">
+                  <label for="block" class="form-label">H.No/Block :</label>
+                  <input type="textbox" class="form-control" id="addblock" placeholder="H.No./Block No." required>
+                </div>
+  <!-- COLONY-->
+                <div class="sk-1">
+                  <label for="colony" class="form-label">Colony/Building Name :</label>
+                  <input type="textbox" class="form-control" id="addcolony" placeholder="Colony/Building Name" required>
+                </div>
+  <!-- LOCALITY-->
+                <div class="sk-1">
+                  <label for="Locality" class="form-label">Locality :</label>
+                  <input type="textbox" class="form-control" id="addlocal" placeholder="Locality" required>
+                </div>
+  <!-- CITY-->
+                <div class="sk-1">
+                  <label for="city" class="form-label">City :</label>
+                  <input type="textbox" class="form-control" id="addcity" placeholder="City" required>
+                </div>
+  <!-- PINCODE-->
+                <div class="sk-1">
+                  <label for="Pincode" class="form-label">Pincode :</label>
+                  <input type="textbox" class="form-control" id="addpin" placeholder="Pincode" required>
+                </div>
+                <br>
+  <!-- STATES-->
+                <div class="select">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>States</option>
+                    <option value="1">Madhya Pradesh</option>
+                    <option value="2">Uttar Pradesh</option>
+                    <option value="3">Chattisgarh</option>
+                    <option value="4">Bihar</option>
+                    <option value="5">Tamil Nadu</option>
+                  </select>
+                </div>
+  <!-- COUNTRY-->
+                <div class="select">
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Country</option>
+                    <option value="1">Afghanistan</option>
+                    <option value="2">Bangladesh</option>
+                    <option value="3">Bhutan</option>
+                    <option value="4">China</option>
+                    <option value="5">Myanmmar</option>
+                    <option value="6">Nepal</option>
+                    <option value="7">Pakistan</option>
+                    <option value="8">Sri Lanka</option>
+                    <option value="9">Maldives</option>
+                    <option value="10">India</option>
+                  </select>
+                </div>  
+          </form>
+
+            <form>
+                <legend><b>PERMANENT ADDRESS</b></legend>
+    <!-- BLOCK-->
+                <div class="sk-1">
+                    <label for="block" class="form-label">H.No/Block :</label>
+                    <input type="textbox" class="form-control" id="addblock" placeholder="H.No./Block No." required>
+                  </div>
+    <!-- COLONY-->
+                  <div class="sk-1">
+                    <label for="colony" class="form-label">Colony/Building Name :</label>
+                    <input type="textbox" class="form-control" id="addcolony" placeholder="Colony/Building Name" required>
+                  </div>
+    <!-- LOCALITY-->
+                  <div class="sk-1">
+                    <label for="Locality" class="form-label">Locality :</label>
+                    <input type="textbox" class="form-control" id="addlocal" placeholder="Locality" required>
+                  </div>
+    <!-- CITY-->
+                  <div class="sk-1">
+                    <label for="city" class="form-label">City :</label>
+                    <input type="textbox" class="form-control" id="addcity" placeholder="City" required>
+                  </div>
+    <!-- PINCODE-->
+                  <div class="sk-1">
+                    <label for="Pincode" class="form-label">Pincode :</label>
+                    <input type="textbox" class="form-control" id="addpin" placeholder="Pincode" required>
+                  </div>
+    <!-- STATES-->
+                  <div class="select">
+                    <select class="form-select" aria-label="Default select example">
+                      <option selected>States</option>
+                      <option value="1">Madhya Pradesh</option>
+                      <option value="2">Uttar Pradesh</option>
+                      <option value="3">Chattisgarh</option>
+                      <option value="4">Bihar</option>
+                      <option value="5">Tamil Nadu</option>
+                      </select>
+                  </div>
+  <!-- COUNTRY-->
+                  <div class="select">
+                    <select class="form-select" aria-label="Default select example">
+                            <option selected>Country</option>
+                            <option value="1">Afghanistan</option>
+                            <option value="2">Bangladesh</option>
+                            <option value="3">Bhutan</option>
+                            <option value="4">China</option>
+                            <option value="5">Myanmmar</option>
+                            <option value="6">Nepal</option>
+                            <option value="7">Pakistan</option>
+                            <option value="8">Sri Lanka</option>
+                            <option value="9">Maldives</option>
+                            <option value="10">India</option>
+                    </select>
+                  </div>  
+            </form>
+        </div>
+        <br>
+        <div class="container">
+
+    <!-- MOBILE NUMBER-->
+          <div class="sk-1">
+            <label for="mobilenumber" class="form-label">Mobile No. :</label>
+            <input type="textbox" class="form-control" id="exampleFormControlInput1" placeholder="+91-0000-0000-00">
+          </div>
+    <!-- CONFIRM MOBILE NUMBER-->
+          <div class="sk-1">
+            <label for="mobilenumber" class="form-label"> Confirm Mobile No. :</label>
+            <input type="textbox" class="form-control" id="exampleFormControlInput2" placeholder="+91-0000-0000-00">
+          </div>
+    <!-- EMAIL-->
+        <div class="sk-1">
+          <label for="emai" class="form-label">Email :</label>
+          <input type="email" class="form-control" id="emailFormControlInput1" placeholder="name@email.com">
+        </div>
+    <!-- CONFIRM EMAIL-->
+        <div class="sk-1">
+          <label for="cnfmemail" class="form-label">Confirm Email:</label>
+          <input type="cnfmemail" class="form-control" id="cnfmFormControlInput2" placeholder="cnfmname@email.com">
+        </div>
+
+    <!-- PASSWORD-->
+          <div class="sk-pass">
+            <label for="inputPassword5" class="form-label">Password</label>
+            <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                  <div class="pass-text">
+                      Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                  </div>
+          
+    <!-- CONFIRM PASSWORD-->         
+            <label for="inputcnfmPassword5" class="form-label">Confirm Password</label>
+            <input type="cnfmpassword" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock"> 
+                  <div class="pass-text">
+                      Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                  </div>
+            </div>
+
+    <!-- CONFIRM BUTTONS-->
+            <div class="cnfm-btn">
+                    <button type="button" class="btn btn-success" id="mob-cnfm">Confirm Number</button>
+                    <button type="button" class="btn btn-success" id="email-cnfm">Confirm Email</button>
+            </div>
+    </div>
+    </main>
+
+    <footer>
+    <!-- DECELERATION-->
+       <div class="dec">
+          <h5><b>Decleration :</b></h5><br>
+          <input type="checkbox"> I here by acknowledge that all the above information provided by me is correct and verified as per my knowledge. I take full reposibility if anything is wrong and does not match as per documents.
+        </div>
+    <!-- SUBMIT-->
+        <div class="sk-btn">
+          <a class="btn btn-primary" href="Sukush_2.html" role="button" onclick="alert('Submitted Successfuly')">Next</a>
+        </div>
+    </footer>
+
+    <script src="Sukush.js"></script>
+    </body>
+</html>
